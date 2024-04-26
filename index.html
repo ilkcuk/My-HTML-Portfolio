@@ -1,4 +1,3 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE HTML>
 <html lang="en">
         
@@ -14,17 +13,13 @@
                 background-color:#090607;
                 color: #ebe2e3;
             }
-        
-            #topnote {
-                text-align: center;
-            }
 
-            h3 {
+            h3, a {
                 margin: 0px;
-                color: #FFF8DC;
+                color: #ebe2e3;
             }
                 
-            .div1 {
+            .div1,.div3,.div5,.div7,.div9 {
                 position: relative;
                 height: 210px; width: 190px;
                 padding: 20px;
@@ -32,7 +27,7 @@
                 background-color: #c3a8ab;
             }
 
-            .div2 {
+            .div2,.div4,.div6,.div8 {
                 position: relative;
                 height: 210px; width: 190px;
                 padding: 20px;
@@ -40,67 +35,17 @@
                 background-color: #696049;
             }
 
-            .div3 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                border: 5px solid black;
-                background-color: #c3a8ab;
-            }
-
-            .div4 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                border: 5px solid black;
-                background-color: #696049;
-            }
-
-            .div5 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                border: 5px solid black;
-                background-color: #c3a8ab;
-            }
-               
-            .div6 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                border: 5px solid black;
-                background-color: #696049;
-            }
-
-            .div7 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                margin-left: 00px;
-                border: 5px solid black;
-                background-color: #c3a8ab;
-            }
-
-            .div8 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                border: 5px solid black;
-                background-color: #696049;
-            }
-
-            .div9 {
-                position: relative;
-                height: 210px; width: 190px;
-                padding: 20px;
-                border: 5px solid black;
-                background-color: #c3a8ab;
+            .divbox1,.divbox2,.divbox3,.divbox4,.divbox5,
+            .divbox6,.divbox7,.divbox8,.divbox9 {
+                border: solid #9a986c;
+                display: inline-flex;
+                width: 37rem;
+                margin-bottom: 5px;
             }
 
             @media (max-width: 600px) {
-                .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8 {
+                .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9 {
                 display: grid;
-                
                 }
             }
 
@@ -110,76 +55,8 @@
                 text-align: center;
             }
 
-            footer {
+            footer,#topnote {
                 text-align: center;
-            }
-
-            .divbox1 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-            }
-
-            .divbox2 {
-                
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-            }
-
-            .divbox3 {
-                
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-            }
-
-            .divbox4 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-
-            }
-
-            .divbox5 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-
-            }
-
-            .divbox6 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-
-            }
-
-            .divbox7 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-            }
-
-            .divbox8 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
-
-            }
-
-            .divbox9 {
-                border: solid #9a986c;
-                display: inline-flex;
-                width: 37rem;
-                margin-bottom: 5px;
             }
 
             p {
@@ -187,51 +64,48 @@
                 color: #ebe2e3;
             }
 
-            a {
-                color: #ebe2e3;
-                
-            }
         </style>
     </head>
+
+
     <body>
     
         <div id="topnote">
-                <h1>
-                    Selcuk A. portfolio
-                </h1>
-                <h2>
-                    Im a Webdeveloper
-                </h2>
-            
-            </div>
+            <h1>
+                Selcuk A. portfolio
+            </h1>
+            <h2>
+                Im a Webdeveloper
+            </h2>
+        </div>
         <hr/>
-    <div class="divbox1">
-        <div class="div1" id="toplist3">    
-            <h3>    
-                <a href="./assets/1 top3/list top.html">
-                    my top 3 movie list
-                </a>
-            </h3>
+
+        <div class="divbox1">
+            <div class="div1" id="toplist3">    
+                <h3>    
+                    <a href="./assets/1 top3/list top.html">
+                        my top 3 movie list
+                    </a>
+                </h3>
                 <a href="./assets/1 top3/list top.html"">
                     <img id="top3"
                         height="200" width="200" 
                         src="./assets/1 top3/top 3 new.png" 
                         alt="a top 3 movie list">
                 </a>
+            </div>
+            <p>
+                one of my first projects i did so i lern how to order h1-h6
+            </p>
         </div>
-        <p>
-            one of my first projects i did so i lern how to order h1-h6
-        </p>
-    </div>
 
-    <div class="divbox2">
-        
-        <div class="div2" id="birthday">
-            <h3>
-                <a href="./assets/2 birthday/birthday.html">
+        <div class="divbox2">
+            <div class="div2" id="birthday">
+                <h3>
+                    <a href="./assets/2 birthday/birthday.html">
                     my birthday invite 
-                </a>
-            </h3>
+                    </a>
+                </h3>
                 <a href="./assets/2 birthday/birthday.html">
                     <img id="birthday"
                         width="200" height="200"
@@ -242,140 +116,141 @@
             <P>
                 Here i tested my skills if i can to img,text,list and links
             </P>
-    </div>
+        </div>
 
-    <div class="divbox3">
-        <div class="div3" id="capstoneproject1">
-            <h3>
-                <a href="./assets/3 resume/resume.html">
-                    My Resume
-                </a>
-            </h3>
+        <div class="divbox3">
+            <div class="div3" id="capstoneproject1">
+                <h3>
+                    <a href="./assets/3 resume/resume.html">
+                        My Resume
+                    </a>
+                </h3>
                 <a href="./assets/3 resume/resume.html">
                     <img id="resume"
                         width="200" height="200"
                         src="./assets/3 resume/Resume.png"
                         alt="my resume">
                 </a>
+            </div>
+            <p>
+                This is my resume where i tried out to order stuff right and work with lists and make stuff look better
+            </p>
         </div>
-        <p>
-            This is my resume where i tried out to order stuff right and work with lists and make stuff look better
-        </p>
-    </div>
 
-    <div class="divbox4">
-        <div class="div4" id="linkedcolored">
-            <h3>
-                <a href="./assets/4 CSS start/linked colored.html">
-                    starting CSS Links
-                </a>
-            </h3>
+        <div class="divbox4">
+            <div class="div4" id="linkedcolored">
+                <h3>
+                    <a href="./assets/4 CSS start/linked colored.html">
+                        starting CSS Links
+                    </a>
+                </h3>
                 <a href="./assets/4 CSS start/linked colored.html">
                     <img
                         width="200" height="200"
                         src="./assets/4 CSS start/colors first.png"
                         alt="website with 3 links for different use of css">
                 </a>
+            </div>
+            <p>
+                Here was my first entry into CSS and i lerned how to apply css in different forms
+            </p>
         </div>
-        <p>
-            Here was my first entry into CSS and i lerned how to apply css in different forms
-        </p>
-    </div>
 
-    <div class="divbox5">
-        <div class="div5" id="cssboxmodel">
-            <h3>
-                <a href="./assets/5 CSS Box Model/index.html">
-                    Box Model with CSS
-                </a>
-            </h3>
+        <div class="divbox5">
+            <div class="div5" id="cssboxmodel">
+                <h3>
+                    <a href="./assets/5 CSS Box Model/index.html">
+                        Box Model with CSS
+                    </a>
+                </h3>
                 <a href="./assets/5 CSS Box Model/index.html">
                     <img
                         width="200" height="200"
                         src="./assets/5 CSS Box Model/box model.png"
                         alt="Website with 3 boxes">
                 </a>
+            </div>
+            <p>
+                here i lerned how to use divs and create boxes through CSS
+            </p>
         </div>
-        <p>
-            here i lerned how to use divs and create boxes through CSS
-        </p>
-    </div>
     
-    <div class="divbox6">
-        <div class="div6" id="motivationalmeme">
-            <h3>
-                <a href="./assets/6 Motivation Meme Project/index.html">
-                    motivational page
-                </a>
-            </h3>
+        <div class="divbox6">
+            <div class="div6" id="motivationalmeme">
+                <h3>
+                    <a href="./assets/6 Motivation Meme Project/index.html">
+                        motivational page
+                    </a>
+                </h3>
                 <a href="./assets/6 Motivation Meme Project/index.html">
                     <img
                         width="200" height="200"
                         src="./assets/6 Motivation Meme Project/motivational page.png"
                         alt="website of a motivational meme page">
                 </a>
+            </div>
+            <p>
+                Here i just testes myself again if i understood the divs, link, border
+            </p>
         </div>
-        <p>
-            here i just testes myself again if i understood the divs, link, border
-        </p>
-    </div>
 
-    <div class="divbox7">
-        <div class="div7" id="cssflagproject">
-            <h3>
+        <div class="divbox7">
+            <div class="div7" id="cssflagproject">
+                <h3>
+                    <a href="./assets/7 CSS Flag Project/index.html">
+                        THE FLAG OF LAOS
+                    </a>
+                </h3>
                 <a href="./assets/7 CSS Flag Project/index.html">
-                    THE FLAG OF LAOS
+                    <img
+                        width="200" height="200"
+                        src="./assets/7 CSS Flag Project/flag of laos.png"
+                        alt="a picture of the flag of laos">
                 </a>
-            </h3>
-                <a href="./assets/7 CSS Flag Project/index.html">
-                <img
-                    width="200" height="200"
-                    src="./assets/7 CSS Flag Project/flag of laos.png"
-                    alt="a picture of the flag of laos">
-                </a>
+            </div>
+            <p>
+                Here I Lerned How To Position Something And Created The Flag With Position
+            </p>
         </div>
-        <p>
-            Here I Lerned How To Position Something And Created The Flag With Position
-        </p>
-    </div>
 
-    <div class="divbox8">
-        <div class="div8" id="webdesignagencyproject">
-            <h3>
+        <div class="divbox8">
+            <div class="div8" id="webdesignagencyproject">
+                <h3>
+                    <a href="./assets/8 Web Design Agency Project/index.html">
+                        Design Agency Project
+                    </a>
+                </h3>
                 <a href="./assets/8 Web Design Agency Project/index.html">
-                    Design Agency Project
+                    <img 
+                        width="200" height="200"
+                        src="./assets/8 Web Design Agency Project/web design agency project.png"
+                        alt="web design agency project">
                 </a>
-            </h3>
-                <a href="./assets/8 Web Design Agency Project/index.html">
-                <img 
-                    width="200" height="200"
-                    src="./assets/8 Web Design Agency Project/web design agency project.png"
-                    alt="web design agency project">
-                </a>
+            </div>
+            <p>
+                here i tested myself again if i understood how to use float and how i formate the website
+            </p>
         </div>
-        <p>
-            here i tested myself again if i understood how to use float and how i formate the website
-        </p>
-    </div>
 
-    <div class="divbox9">
-        <div class="div9" id="flexboxpricingtable">
-            <h3>
+        <div class="divbox9">
+            <div class="div9" id="flexboxpricingtable">
+                <h3>
+                    <a href="./assets/9 flexbox pricingtable/index.html">
+                        flexbox pricingtable
+                    </a>
+                </h3>
                 <a href="./assets/9 flexbox pricingtable/index.html">
-                    flexbox pricingtable
+                    <img
+                        width="200" height="200"
+                        src="./assets/9 flexbox pricingtable/flexbox pricingtable.png"
+                        alt="picture of a pricingtable project">
                 </a>
-            </h3>
-                <a href="./assets/9 flexbox pricingtable/index.html">
-                <img
-                    width="200" height="200"
-                    src="./assets/9 flexbox pricingtable/flexbox pricingtable.png"
-                    alt="picture of a pricingtable project">
-                </a>
+            </div>
+            <p>
+                On this project i lerned how i can use the flexbox to center the div and make the pricingtable to look good 
+            </p>
         </div>
-        <p>
-            On this project i lerned how i can use the flexbox to center the div and make the pricingtable to look good 
-        </p>
-    </div>
+
         <div id="end">
             <h3>
                 <a href="./assets/about.html">
