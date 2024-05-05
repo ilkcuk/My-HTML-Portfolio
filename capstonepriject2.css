@@ -1,0 +1,56 @@
+div {
+    font-family: "Poetsen One", sans-serif;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 200px; 
+  }
+
+  #aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #hanging-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+
+  .centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #myReasons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #myWisdom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bi {
+    color: cornflowerblue;
+  }

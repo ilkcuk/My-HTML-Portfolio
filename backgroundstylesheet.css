@@ -1,18 +1,9 @@
-html {
-    background-color:#090607;
-    color: #ebe2e3;
-}
-
 #turnaround {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
     background-color: green;
     border: 5px solid rgb(16, 70, 8);
     margin-bottom: 10px;
-    padding-left: 20px;
-    border-radius: 2rem;
-  }
-
-  #extra {
-    font-size: x-large;
+    padding-left: 10px;
+    border-radius: 3rem;
   }
